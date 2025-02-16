@@ -1,0 +1,25 @@
+﻿  Camera.cpp
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Camera.cpp(60,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Camera.cpp(61,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Camera.cpp(67,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Camera.cpp(68,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Camera.cpp(74,16): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Camera.cpp(75,18): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(128,40): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(128,40): warning C4244:         with
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(128,40): warning C4244:         [
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(128,40): warning C4244:             T=float
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(128,40): warning C4244:         ]
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(129,40): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(129,40): warning C4244:         with
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(129,40): warning C4244:         [
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(129,40): warning C4244:             T=float
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(129,40): warning C4244:         ]
+  Mesh.cpp
+  Model3D.cpp
+  Shader.cpp
+  stb_image.cpp
+  tiny_obj_loader.cpp
+  Generating Code...
+  Proiect GP.vcxproj -> C:\Users\gamer\source\repos\Proiect GP\Proiect GP\x64\Debug\Proiect GP.exe

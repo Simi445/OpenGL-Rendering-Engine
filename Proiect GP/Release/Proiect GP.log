@@ -1,0 +1,23 @@
+﻿  Camera.cpp
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Camera.cpp(65,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Camera.cpp(66,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Camera.cpp(72,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Camera.cpp(73,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Camera.cpp(79,16): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Camera.cpp(80,18): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(13,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Mesh.cpp
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Mesh.hpp(8,14): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'Mesh.cpp')
+  
+  Model3D.cpp
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Mesh.hpp(8,14): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'Model3D.cpp')
+  
+  Shader.cpp
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\Shader.hpp(16,14): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  (compiling source file 'Shader.cpp')
+  
+  stb_image.cpp
+  tiny_obj_loader.cpp

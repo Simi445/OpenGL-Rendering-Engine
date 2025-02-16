@@ -1,0 +1,75 @@
+#version 410 core
+
+// Fragment Shader
+in vec2 fragTexCoord;
+in vec3 fragPosition;
+in vec3 fragNormal;
+out vec4 fragmentColour;
+
+uniform sampler2D diffuseTexture;
+uniform sampler2D specularTexture;
+
+// Lighting uniforms
+uniform vec3 lightPosEyeObj;   // Position of the point light in eye space
+uniform vec3 lightColorObj;    // Color of the light
+uniform vec3 cameraPosEyeObj;  // Position of the camera (viewer)
+
+// Material properties
+uniform float ambientStrengthObj = 0.2f;
+uniform float specularStrengthObj = 0.5f;
+uniform float shininessObj = 32.0f;
+
+// Attenuation coefficients
+uniform float constant = 1.0f;
+uniform float linear = 0.0045f;
+uniform float quadratic = 0.0075f;
+
+// Fog parameters
+uniform vec3 fogColor = vec3(0.5, 0.5, 0.5);
+uniform float density = 0.02;
+uniform float exponent = 1.5;
+
+// Lighting components
+vec3 ambientObj;
+vec3 diffuseObj;
+vec3 specularObj;
+
+void computeLightComponents() {
+    // Calculate distance and attenuation
+    float dist = length(lightPosEyeObj - fragPosition);
+    float att = 1.0f / (constant + linear * dist + quadratic * (dist * dist));
+
+    // Normalize vectors
+    vec3 normalEye = normalize(fragNormal);
+    vec3 lightDirN = normalize(lightPosEyeObj - fragPosition);
+    vec3 viewDirN = normalize(cameraPosEyeObj - fragPosition);
+    vec3 halfVector = normalize(lightDirN + viewDirN);
+
+    // Compute ambient light (no attenuation)
+    ambientObj = ambientStrengthObj * lightColorObj;
+
+    // Compute diffuse light
+    float diff = max(dot(normalEye, lightDirN), 0.0f);
+    diffuseObj = att * diff * lightColorObj;
+
+    // Compute specular light
+    float specCoeff = pow(max(dot(normalEye, halfVector), 0.0f), shininessObj);
+    specularObj = att * specularStrengthObj * specCoeff * lightColorObj;
+}
+
+void main() {
+    computeLightComponents();
+    ambientObj *= texture(diffuseTexture, fragTexCoord).rgb;
+    diffuseObj *= texture(diffuseTexture, fragTexCoord).rgb;
+    specularObj *= texture(specularTexture, fragTexCoord).rgb;
+
+    // Combine lighting components and clamp final color
+    vec3 lighting = (ambientObj + diffuseObj) * texture(diffuseTexture, fragTexCoord).rgb + specularObj;
+
+    float distance = abs(fragPosition.z);
+    float fogFactor = exp(-pow(distance * density, exponent));
+    fogFactor = clamp(fogFactor, 0.0, 1.0);
+    vec3 finalColor = mix(fogColor, lighting, fogFactor);
+
+    fragmentColour = vec4(finalColor, 1.0);
+}

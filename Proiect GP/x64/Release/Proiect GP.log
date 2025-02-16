@@ -1,0 +1,46 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Lab 6.vcxproj, Proiect.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Users\gamer\OneDrive\Documents\OpenGL dev libs\include\GLFW\glfw3.h(123,11):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(384,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(522,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(523,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1321,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1341,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1340,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1339,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1374,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1373,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1388,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1386,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1385,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1384,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1400,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1398,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1397,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1396,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1413,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1412,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1411,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1410,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1409,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1438,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1437,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1436,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1435,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1434,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1456,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1454,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1453,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1466,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1464,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1463,4): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\gamer\source\repos\Proiect GP\Proiect GP\main.cpp(1462,4): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 1949 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Proiect GP.vcxproj -> C:\Users\gamer\source\repos\Proiect GP\x64\Release\Proiect GP.exe

@@ -1,0 +1,32 @@
+# Blender 4.2.3 LTS MTL File: 'winter_house_night.blend'
+# www.blender.org
+
+newmtl Leaves.001
+Ns 0.516528
+Ka 1.000000 1.000000 1.000000
+Ks 0.077273 0.077273 0.077273
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd leaves.png
+
+newmtl Snow.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.020454 0.020454 0.020454
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd snow_trees.png
+
+newmtl Wood.001
+Ns 90.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd wood.png

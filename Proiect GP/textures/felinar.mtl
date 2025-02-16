@@ -1,0 +1,32 @@
+# Blender 4.2.3 LTS MTL File: 'winter_house_day.blend'
+# www.blender.org
+
+newmtl Box.003
+Ns 242.780182
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd felinar1.png
+
+newmtl Grey.002
+Ns 325.937103
+Ka 0.469091 0.469091 0.469091
+Ks 0.478182 0.478182 0.478182
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd felinar3.png
+
+newmtl Lantern_glass.002
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd felinar2.png
